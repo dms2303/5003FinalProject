@@ -1,0 +1,22 @@
+.headFootBackground{
+  background-color: gray;
+  padding-left: 40px;
+  text-align: center;
+}
+
+body{
+  padding-left: 40px;
+}
+.navBar{
+text-align: right;
+}
+
+h1{
+font-family: 'Shadows Into Light', cursive;
+color: white;
+font-size:80px;
+}
+
+.bodyTitle{
+padding-left: 40px;
+}

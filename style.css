@@ -1,4 +1,4 @@
-header{
+.divHeader{
   background-color: #202020;
   text-align: center;
   padding:0;
@@ -45,13 +45,17 @@ h2{
 h3{
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 h4{
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 24px;
-  letter-spacing: 2px;
+  font-size: 25px;
+  color: #008080;
+  padding-bottom: 30px;
+  padding-top:20px;
+  margin: auto;
+  letter-spacing: 5px;
 }
 
 

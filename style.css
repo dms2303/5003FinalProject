@@ -78,7 +78,7 @@ p{
 /*central body stylings*/
 
 .content {
-  margin-top: auto;
+  margin-top: 160px;
   padding: 16px;
   padding-bottom: 25px;
 }
@@ -86,6 +86,7 @@ p{
 .columnNarrow {
   width:30%;
   float:left;
+  margin-top: auto;
 }
 
 .responsive {
@@ -98,6 +99,7 @@ padding-right: 30px;
 width:65%;
 float:right;
 min-height: 400px;
+margin-top: auto;
 }
 
 .buttonLeaf{

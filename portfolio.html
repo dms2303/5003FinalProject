@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Danica M. Stitz</title>
-  <link rel="stylesheet" type="text/css" href="styleSupplement.css">
+  <link rel="stylesheet" type="text/css" href="stylePortfolio.css">
 <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Shadows+Into+Light&display=swap" rel="stylesheet">
   <script src="main.js"></script>
 <script src="https://kit.fontawesome.com/d829260e48.js" crossorigin="anonymous"></script>
@@ -14,54 +14,66 @@
 
 <body>
 
-<div class="header" id="myHeader">
-  <ul class="navBar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="resume.html">Résume</a></li>
-    <li><a href="thoughts.html">Thoughts</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-  <h1>Danica M. Stitz</h1>
-  <h2>Learning Experience Designer</h2>
-</div>
-
-<div class="content">
-  <div class="columnNarrow">
-    <img src="leafImages/Leaf1.jpg" alt="Leaf1" id="javaLeaf" class="responsive">
+  <div class="header" id="myHeader">
+    <ul class="navBar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="resume.html">Résume</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
   </div>
 
-  <div class="columnWide" class="responsive">
-    <h3>Design | Develop | Deliver</h3>
-    <p>Technology might be seasonal but the underlying principles of adult learning and development ...Aces modipsum sum apientiaerum pientiaerum eicia apitat es et, quiscid mosantis plantorit aut eictore icienest, endemodit reium quaepre, occus.
-        Eperionse aborro beatum volo essit, soles verum ipsum quat voluptibus verovid iatetus evero berum idebit offictet eliam abo. Ratisti vendenis adis modit plam ea qui doluptasit, simus porro tem rem quatiam, qui is ut hitae eaquist, etur? apientiaerum eicia apitat es et, quiscid mosantis plantorit aut eictore icienest, endemodit reium quaepre, occus.
-        Eperionse aborro beatum volAces</p>
-    <button class="buttonLeaf" onclick="changeLeaf ();">Try me!</button> /*function to be added*/
-</div>
-</div>
+<div class="slideshow-container">
 
-
-<div class="footer">
-  <h4>Let's connect.</h4>
-  <div class="footerBar">
-  <i class="fas fa-envelope"></i>
-  <i class="fab fa-linkedin"></i>
-  <i class="fab fa-instagram"></i>
-  <i class="fab fa-twitter"></i>
-  </div>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="portfolio02.jpg" style="width:100%">
+  <div class="text"></div>
 </div>
 
-<script>
-window.onscroll = function() {myFunction()};
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="portfolio03.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="portfolio04.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
 
-function myFunction() {
-  if (window.pageYOffset>sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="portfolio05.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="portfolio06.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="portfolio07.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
 </body>

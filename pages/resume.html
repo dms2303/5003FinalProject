@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Danica M. Stitz</title>
-  <link rel="stylesheet" type="text/css" href="styleSupplement.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/styleSupplement.css">
 <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Shadows+Into+Light&display=swap" rel="stylesheet">
   <script src="main.js"></script>
 <script src="https://kit.fontawesome.com/d829260e48.js" crossorigin="anonymous"></script>
@@ -16,10 +16,10 @@
 
 <div class="header" id="myHeader">
   <ul class="navBar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="thoughts.html">Thoughts</a></li>
-    <li><a href="about.html">About</a></li>
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./pages/portfolio.html">Portfolio</a></li>
+    <li><a href="./pages/thoughts.html">Thoughts</a></li>
+    <li><a href="./pages/about.html">About</a></li>
   </ul>
 </div>
 <div class="resume">
@@ -60,32 +60,17 @@
               <h6>PowerPoint Design & Delivery</h6>
               <h6>Basic HTML & CSS</h6>
           </ul>
-</div>
-
+        </div>
 </div>
 
 <div class="footer">
   <h4>Let's connect.</h4>
-  <div class="footerBar">
-  <i class="fas fa-envelope"></i>
-  <i class="fab fa-linkedin"></i>
-  <i class="fab fa-instagram"></i>
-  <i class="fab fa-twitter"></i>
-  </div>
+    <div class="footerBar">
+        <i class="fas fa-envelope"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
 </div>
 
-<script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset>sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
 </body>

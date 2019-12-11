@@ -23,45 +23,54 @@ padding-right: 30px;
 }
 
 li{
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
   color: #008080;
   letter-spacing: 3px;
-  padding: 20px;
+  padding-top: 25px;
+  padding-left: 15px;
   display: inline-block;
+  text-decoration: none;
+}
+
+li:link{
+  text-decoration: none;
+}
+li:visited{
+text-decoration: none;
 }
 
 /*font fashionings*/
 
 h1{
-font-family: 'Shadows Into Light', cursive;
+font-family: 'Oregano', cursive;
 color: white;
-font-size:70px;
+font-size:90px;
 padding:0;
 margin:auto;
-letter-spacing: 6px;
+letter-spacing: 5px;
 }
 
 h2{
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 30px;
-  color: #008080;
+  font-size: 24px;
+  color: #66CCCC;
   padding-bottom: 30px;
-  padding-top:0;
+  padding-top:10px;
   margin: auto;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
 }
 
 h3{
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 26px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
   letter-spacing: 4px;
 }
 
 h4{
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 25px;
-  color: #008080;
+  color: #66CCCC;
   padding-top:20px;
   padding-bottom:10px;
   margin: auto;
@@ -70,7 +79,7 @@ h4{
 
 
 p{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   padding-right: 30px;
 }
@@ -78,7 +87,7 @@ p{
 /*central body stylings*/
 
 .content {
-  margin-top: 160px;
+  margin-top: 20px;
   padding: 16px;
   padding-bottom: 25px;
 }
@@ -103,7 +112,7 @@ margin-top: auto;
 }
 
 .buttonLeaf{
-  background-color: #008080;
+  background-color: #66CCCC;
   font-family: 'Archivo Narrow', sans-serif;
   border: none;
   color: black;

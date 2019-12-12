@@ -1,160 +1,152 @@
 *{
   box-sizing: border-box;
 }
-
-/*Header fashionings*/
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  background-color: #202020;
-  text-align: center;
-  padding:0;
+/*nav and header fashionings*/
+#headerMargin{
+  width:110%;
   margin-top: -20px;
-  height:auto;
+  margin-left: -20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
 }
 
-.navBar{
-text-align: right;
-padding-right: 30px;
-}
-
-li{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 16px;
-  color: #008080;
-  letter-spacing: 3px;
-  padding-top: 25px;
-  padding-left: 15px;
-  display: inline-block;
+nav{
+  margin-top: -10px;
+  padding-top: 20px;
+  padding-right: 100px;
   text-decoration: none;
+  float:right;
 }
 
-li:link{
-  text-decoration: none;
+/*fcontent blockss*/
+#contentBlockOne{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right:30px;
+  margin-bottom:10px;
+  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
 }
-li:visited{
-text-decoration: none;
+
+#contentBlockTwo {
+background-color: rgb(51,102,102, .7);
+  width:110%;
+  margin-top: 30px;
+  margin-left: -30px;
+  margin-bottom:40px;
+  padding-top:30px;
+  padding-bottom: 30px;
+  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
 }
+
+#contentBlockThree{
+  width:110%;
+  margin-top: 30px;
+  margin-left: -30px;
+  margin-bottom:10px;
+  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
+}
+
+#contentBlockFour {
+  background-color: rgb(51,102,102, .7);
+  width:110%;
+  margin-top: 30px;
+  margin-left: -30px;
+  padding-top:30px;
+  position:relative;
+}
+
+#contentBlockFive{
+  min-height: 100px;
+  background-color: rgb(51,102,102, .7);
+  width:110%;
+  margin-left: -30px;
+  margin-bottom:80px;
+  padding-top:30px;
+  position:relative;
+  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
+}
+
 
 /*font fashionings*/
-
 h1{
 font-family: 'Oregano', cursive;
 color: white;
-font-size:90px;
+font-size:70px;
 padding:0;
-margin:auto;
+margin:0;
 letter-spacing: 5px;
+text-align: center;
 }
 
 h2{
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 24px;
-  color: #66CCCC;
-  padding-bottom: 30px;
+  font-size: 20px;
+  color: #66cccc;
+  padding-bottom: 10px;
   padding-top:10px;
-  margin: auto;
+  margin: 0;
   letter-spacing: 10px;
+  text-align: center;
 }
 
 h3{
   font-family: 'Bebas Neue', cursive;
   font-size: 24px;
   letter-spacing: 4px;
+  padding-top: 30px;
 }
 
 h4{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 25px;
-  color: #66CCCC;
-  padding-top:20px;
-  padding-bottom:10px;
-  margin: auto;
-  letter-spacing: 5px;
+  color: #336666;
 }
 
-
-p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  padding-right: 30px;
-}
-
-/*central body stylings*/
-
-.content {
-  margin-top: 20px;
-  padding: 16px;
-  padding-bottom: 25px;
-}
-
-.columnNarrow {
-  width:30%;
-  float:left;
-  margin-top: auto;
-}
-
-.responsive {
-  width: 100%;
-}
-
-.columnWide{
-height:300px;
-padding-right: 30px;
-width:65%;
-float:right;
-min-height: 400px;
-margin-top: auto;
-}
-
-.buttonLeaf{
-  background-color: #66CCCC;
-  font-family: 'Archivo Narrow', sans-serif;
-  border: none;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  border-radius: 10px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
-/*Footer stylings*/
-.footer {
-  background-color: #202020;
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 25px;
-  color: #008080;
-  letter-spacing: 5px;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 30px;
-  position:fixed;
-  bottom:0;
-  width: 100%;
-  margin-top:40px;
-}
-
-.footerBar{
+h5{
+font-family: 'Oregano', cursive;
+color: white;
+font-size:30px;
+padding:0;
+margin:0;
+letter-spacing: 5px;
 text-align: center;
 }
 
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+#textWhite{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color:white;
+}
+
+/*footer fashionings*/
+#footerContent {
+  font-size: 25px;
+  color: #336666;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  position: fixed;
+  display:inline;
+}
+
 i{
+  color: #66cccc;
   padding-right: 10px;
   padding-left: 10px;
 }
+
+/*Footer stylings
+.footerBar{
+text-align: center;
+}
+*/

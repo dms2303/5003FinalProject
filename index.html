@@ -2,51 +2,170 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Danica M. Stitz</title>
+
+    <!--Style sheets-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:700|Bebas+Neue|Oregano|Roboto&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+    <!--Source sites fonts, icons-->
+      <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:700|Bebas+Neue|Oregano|Roboto&display=swap" rel="stylesheet">
       <script src="https://kit.fontawesome.com/d829260e48.js" crossorigin="anonymous"></script>
+    <!--Scripts-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
       <script src="./scripts/main.js"></script>
 </head>
 
 
 <body>
-<div class="container">
-  <div class="header" id="myHeader">
-      <ul class="navBar">
-          <li><a href="./pages/about.html">About |</a></li>
-          <li><a href="./pages/portfolio.html">Portfolio |</a></li>
-          <li><a href="./pages/thoughts.html">Thoughts |</a></li>
-      </ul> <!--navBar -->
 
+    <!--overall container-->
+  <div class="container-fluid">
+
+
+
+  <!--header-->
+  <div class="container-fluid bg-dark responsive sticky-top shadow-lg" id="headerMargin">
+
+<nav id="navBar">
+    <ul class="nav justify-content-end">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home |</a></li>
+        <li class="nav-item"><a class="nav-link" href="./pages/about.html">About |</a></li>
+        <li class="nav-item"><a class="nav-link" href="./pages/portfolio.html">Portfolio |</a></li>
+        <li class="nav-item"><a class="nav-link" href="./pages/thoughts.html">Thoughts |</a></li>
+    </ul>
+</nav>
+
+<div class="row"> </div>
+
+<div class="container" id="headerBar">
     <h1>Danica M. Stitz</h1>
-    <h2>Learning  Experience  Designer</h2>
-  </div> <!--class="header" id="myHeader"-->
-</div> <!--container -->
+    <h2>Learning Experience Designer</h2>
+</div>
+
+  </div><!--end header container -->
 
 
-<div class="container">
+
+  <!--block content overall-->
+  <div class="container-fluid"><!--overall-->
+
+
+<!--block content one-->
+<div class="container-fluid" id="contentBlockOne">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>| Define |</h3>
+          <img src="./images/leafimages/Leaf3.jpg" class="img-fluid" alt="leaf two">
+          <p>Before getting started, it is imperative to know exactly which problem your are trying to solve. Is it a performance issue? A behavorial issue? Or maybe it is a skills gap... blah blah</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>| Design |</h3>
+          <img src="./images/leafimages/Leaf1.jpg" class="img-fluid" alt="leaf one">
+          <p>Design is an intrinsic component to achieving those specific goals. Good design merges seamlessly with your business goals and learning objectives.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>| Deliver |</h3>
+        <img src="./images/leafimages/Leaf3.jpg" class="img-fluid" alt="leaf three">
+        <p>Once you are equipped with an elegantly designed solution to your specific problem, it is time to mobilize.</p>
+      </div>
+    </div><!--row-->
+</div><!--end block content one-->
+<!--end block content one-->
+
+<!--block content two-->
+    <div class="container-fluid" id="contentBlockTwo">
+    <div class="row">
+      <div class="col-sm-4 offset-1">
+          <img src="./images/leafimages/Leaf3.jpg" class="img-fluid" alt="leaf two">
+      </div>
+      <div class="col-sm-4">
+        <h3>| Design |</h3>
+          <p id="textWhite">Design is an intrinsic component to achieving those specific goals. Good design merges seamlessly with your business goals and learning objectives.</p>
+      </div>
+    </div><!--row-->
+    </div>
+<!--end block content two-->
+
+<!--block content three-->
+    <div class="container-fluid" id="contentBlockThree">
+    <div class="row">
+      <div class="col-sm-4 offset-1">
+          <img src="./images/leafimages/Leaf3.jpg" class="img-fluid" alt="leaf two">
+      </div>
+      <div class="col-sm-4">
+        <h3>| Design |</h3>
+          <p>Design is an intrinsic component to achieving those specific goals. Good design merges seamlessly with your business goals and learning objectives.</p>
+      </div>
+    </div><!--row-->
+    </div>
+<!--end block content three-->
+
+<!--block content four-->
+    <div class="container-fluid" id="contentBlockFour">
+    <div class="row">
+      <div class="col-sm-4 offset-1">
+          <img src="./images/leafimages/Leaf3.jpg" class="img-fluid" alt="leaf two" id="leafPadding">
+      </div>
+      <div class="col-sm-4">
+        <h3> | Design |</h3>
+          <p id="textWhite">Design is an intrinsic component to achieving those specific goals. Good design merges seamlessly with your business goals and learning objectives.</p>
+      </div>
+    </div><!--row-->
+    </div>
+<!--end block content four-->
+
+<div class="container-fluid" id="contentBlockFive">
+<div class="row"></div><!--row-->
+</div>
+
+  <!--footer-->
+<div class="container-fluid bg-dark responsive fixed-bottom" id="footerContent">
+    <h5>Let's connect!</h5>
+      <i class="fas fa-envelope"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+</div><!--footer container -->
+
+
+</div> <!--overall container-->
+
+</body>
+
+<!--reference
+      <div class="header" id="myHeader">
+          <ul class="navBar">
+              <li><a href="./pages/about.html">About |</a></li>
+              <li><a href="./pages/portfolio.html">Portfolio |</a></li>
+              <li><a href="./pages/thoughts.html">Thoughts |</a></li>
+          </ul> <!--navBar -->
+
+<!--reference
+          <h1>Danica M. Stitz</h1>
+          <h2>Learning  Experience  Designer</h2>
+      </div> <!--class="header" id="myHeader"-->
+
+
+<!--reference
+<div class="container" id="columnNarrow">
   <div class="row">
-
-      <div class="content">
-            <div class="columnNarrow">
+            <div class="col-lg-4">
                 <img src="./images/leafImages/Leaf1.jpg" alt="Leaf1" id="javaLeaf" class="responsive">
             </div> <!--column narrow-->
 
-            <div class="columnWide" class="responsive">
+<!--reference
+            <div class="col-lg-8" id="columnWide">
                 <h3>Design | Develop | Deliver</h3>
-                <p>Technology might be seasonal but the underlying principles of adult learning and development ...Aces modipsum sum apientiaerum pientiaerum eicia apitat es et, quiscid mosantis plantorit aut eictore icienest, endemodit reium quaepre, occus.
-                    Eperionse aborro beatum volo essit, soles verum ipsum quat voluptibus verovid iatetus evero berum idebit offictet eliam abo. Ratisti vendenis adis modit plam ea qui doluptasit, simus porro tem rem quatiam, qui is ut hitae eaquist, etur? apientiaerum eicia apitat es et, quiscid mosantis plantorit aut eictore icienest, endemodit reium quaepre, occus.
-                    Eperionse aborro beatum volAces</p>
-                <button class="buttonLeaf" onclick="changeLeaf ();">coming soon!</button>
-            </div><!--column wide -->
-      </div><!--content -->
-  </div><!--row -->
-</div><!--container -->
+                <p>Technology might be seasonal but the underlying principles of adult learning and development ...Aces modipsum sum apientiaerum pientiaerum eicia apitat es et, quiscid mosantis plantorit aut eictore icienest, endemodit reium quaepre, occus. Eperionse aborro beatum volo essit, soles verum ipsum quat voluptibus verovid iatetus evero berum idebit offictet eliam abo. Ratisti vendenis adis modit plam ea qui doluptasit, simus porro tem rem quatiam, qui is ut hitae eaquist, etur? apientiaerum eicia apitat es et, quiscid mosantis plantorit aut eictore icienest, endemodit reium quaepre, occus.
+                  Eperionse aborro beatum volAces</p>
+            </div>
+            <div class="row"></div>
 
+<!--reference
   <div class="footer">
     <h4>Let's connect.</h4>
       <div class="footerBar">
@@ -56,4 +175,3 @@
           <i class="fab fa-twitter"></i>
       </div> <!--footer bar -->
   </div> <!--footer -->
-</body>

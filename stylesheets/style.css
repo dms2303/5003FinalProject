@@ -6,12 +6,12 @@ body{
   background-color: #1B2631;
   margin:0;
   border: 5px;
-
 }
 /*nav and header fashionings*/
 #headerMargin{
   background-color: #1B2631;
   margin-bottom: 10px;
+  padding-bottom: 20px;
   position: sticky;
 }
 
@@ -19,10 +19,10 @@ nav{
   padding-top: 10px;
 }
 
-/*fcontent blocks*/
+/*content blocks*/
 
 #contentBlockOne {
-  background-color: white;
+  background-color:white;
   margin-top: 10px;
   margin-bottom:40px;
   padding-bottom: 30px;
@@ -32,20 +32,17 @@ nav{
   background-color: #A2D9CE;
   margin-top: 30px;
   margin-bottom:10px;
-  padding-left: 50px;
-  padding-bottom: 100px;
-  text-align: center;
 }
 
 .pPad{
-  padding:10px;
+padding: 10px;
 }
 
 .DDD{
-  border-radius:50%;
-  height: 250px;
-  padding:10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  height:250px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rbga(0,0,0,.2), 0 6px 20px 0 rbga (0,0,0,.19);
 }
 
 
@@ -82,21 +79,6 @@ h4{
   color: #336666;
 }
 
-a, li, i{
-  font-size: 16px;
-}
-
-a, li{
-  font-family: 'Archivo Narrow', sans-serif;
-  color:white;
-  color: #66cccc;
-  text-decoration: none;
-}
-
-a:hover{
-  color:white;
-}
-
 h5{
 font-family: 'Oregano', cursive;
 color: white;
@@ -112,6 +94,20 @@ p{
   font-size: 15px;
 }
 
+a, li, i{
+  font-size: 15px;
+}
+
+a, li{
+  font-family: 'Archivo Narrow', sans-serif;
+  color:white;
+  color: #66cccc;
+  text-decoration: none;
+}
+
+a.hover {
+  color:white;
+}
 
 /*footer fashionings*/
 #footerContent {
@@ -134,14 +130,3 @@ i{
   padding-left: 10px;
   padding-top: 10px;
 }
-
-.fa, .fas, .fab{
-  font-size: 25px;
-  text-align: center;
-}
-
-/*Footer stylings
-.footerBar{
-text-align: center;
-}
-*/

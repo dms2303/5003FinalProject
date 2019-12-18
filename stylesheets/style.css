@@ -28,10 +28,22 @@ nav{
   padding-bottom: 30px;
 }
 
+.bottomIcons{
+  padding-top: 30px;
+}
+
+.circle-icon {
+    background: #1B2631;
+    padding:20px;
+    border-radius: 50%;
+}
+
 #contentBlockTwo{
   background-color: #A2D9CE;
-  margin-top: 30px;
-  margin-bottom:10px;
+  margin-top: 60px;
+  margin-bottom:40px;
+  padding-bottom: 60px;
+  align-items: center;
 }
 
 .pPad{
@@ -42,7 +54,7 @@ padding: 10px;
   border-radius: 50%;
   height:250px;
   padding: 10px;
-  box-shadow: 0 4px 8px 0 rbga(0,0,0,.2), 0 6px 20px 0 rbga (0,0,0,.19);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
 
@@ -94,8 +106,9 @@ p{
   font-size: 15px;
 }
 
-a, li, i{
-  font-size: 15px;
+i{
+  font-size: 30px;
+  text-align: left;
 }
 
 a, li{
@@ -116,7 +129,7 @@ a.hover {
   color: #336666;
   letter-spacing: 5px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 60px;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;

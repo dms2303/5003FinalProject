@@ -1,51 +1,51 @@
 *{
   box-sizing: border-box;
 }
+
+body{
+  background-color: #1B2631;
+  margin:0;
+  border: 5px;
+
+}
 /*nav and header fashionings*/
 #headerMargin{
-  width:110%;
-  margin-top: -20px;
-  margin-left: -20px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  background-color: #1B2631;
+  margin-bottom: 10px;
   position: sticky;
-  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
 }
 
 nav{
-  margin-top: -10px;
-  padding-top: 20px;
-  padding-right: 200px;
-  text-decoration: none;
-  float:right;
+  padding-top: 10px;
 }
 
-/*fcontent blockss*/
+/*fcontent blocks*/
 
 #contentBlockOne {
-  text-align:center;
-  width:110%;
-  margin-top: 30px;
-  margin-left: -30px;
+  background-color: white;
+  margin-top: 10px;
   margin-bottom:40px;
-  padding-top:30px;
   padding-bottom: 30px;
-  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
 }
 
 #contentBlockTwo{
-  background-color: rgb(51,102,102, .7);
+  background-color: #A2D9CE;
   margin-top: 30px;
-  width: 110%;
-  margin-left: -30px;
   margin-bottom:10px;
   padding-left: 50px;
-  box-shadow: 8px rgba(0, 0, 0, 0.4), 6px rgba(0, 0, 0, 0.4);
+  padding-bottom: 100px;
+  text-align: center;
 }
 
-#picturePaddingTwo{
-padding: 30px;
+.pPad{
+  padding:10px;
+}
 
+.DDD{
+  border-radius:50%;
+  height: 250px;
+  padding:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -53,8 +53,7 @@ padding: 30px;
 h1{
   font-family: 'Oregano', cursive;
   color: white;
-  font-size:70px;
-  padding:0;
+  font-size:60px;
   margin:0;
   letter-spacing: 5px;
   text-align: center;
@@ -62,10 +61,9 @@ h1{
 
 h2{
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #66cccc;
-  padding-bottom: 10px;
-  padding-top:10px;
+  padding-bottom: 15px;
   margin: 0;
   letter-spacing: 10px;
   text-align: center;
@@ -84,10 +82,25 @@ h4{
   color: #336666;
 }
 
+a, li, i{
+  font-size: 16px;
+}
+
+a, li{
+  font-family: 'Archivo Narrow', sans-serif;
+  color:white;
+  color: #66cccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color:white;
+}
+
 h5{
 font-family: 'Oregano', cursive;
 color: white;
-font-size:30px;
+font-size:20px;
 padding:0;
 margin:0;
 letter-spacing: 5px;
@@ -99,14 +112,10 @@ p{
   font-size: 15px;
 }
 
-#textWhite{
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  color:white;
-}
 
 /*footer fashionings*/
 #footerContent {
+  background-color: #1B2631;
   font-size: 25px;
   color: #336666;
   letter-spacing: 5px;
@@ -123,6 +132,12 @@ i{
   color: #66cccc;
   padding-right: 10px;
   padding-left: 10px;
+  padding-top: 10px;
+}
+
+.fa, .fas, .fab{
+  font-size: 25px;
+  text-align: center;
 }
 
 /*Footer stylings

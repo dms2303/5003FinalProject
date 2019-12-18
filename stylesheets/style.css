@@ -19,6 +19,11 @@ nav{
   padding-top: 10px;
 }
 
+.active{
+  background-color: white;
+  color: black;
+}
+
 /*content blocks*/
 
 #contentBlockOne {
